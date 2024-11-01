@@ -1,0 +1,141 @@
+@charset "UTF-8";
+/**
+ * @author              Angelo Rocha
+ * @author              Angelo Rocha <contato@angelorocha.com.br>
+ * @link                https://angelorocha.com.br
+ * @copyleft            2020
+ * @license             GNU GPL 3 (https://www.gnu.org/licenses/gpl-3.0.html)
+ * @package WordPress
+ * @subpackage wpss_cookies
+ * @since 1.0.0
+ */
+
+.wpss-cookie-message {
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+}
+.wpss-container {
+    max-width: 1170px;
+    padding: 15px;
+    margin: 0 auto 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.wpss-container-message {
+    max-width: 85%;
+    padding-right: 20px;
+    text-align: justify;
+}
+
+.wpss-container-button {
+    max-width: 15%;
+    text-align: right;
+}
+
+.wpss-cookie-button-accept {
+    padding: 0.8rem 3rem;
+    text-transform: uppercase;
+    border: 0;
+    transition: 300ms;
+    color: #FFF;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.wpss-cookie-message.wpss_ocean {
+    background-color: #3185FC;
+    color: #0B4F6C;
+    border-color: #403F4C;
+}
+.wpss-cookie-message.wpss_ocean .wpss-cookie-button-accept {
+    background-color: #403F4C;
+}
+
+.wpss-cookie-message.wpss_light {
+    background-color: #FBFBFF;
+    color: #0B4F6C;
+    border-color: #01BAEF;
+}
+.wpss-cookie-message.wpss_light .wpss-cookie-button-accept {
+    background-color: #01BAEF;
+}
+
+.wpss-cookie-message.wpss_forest {
+    background-color: #5EF38C;
+    color: #2B9720;
+    border-color: #266447;
+}
+.wpss-cookie-message.wpss_forest .wpss-cookie-button-accept {
+    background-color: #266447;
+}
+
+.wpss-cookie-message.wpss_solar {
+    background-color: #FFFFBF;
+    color: #8C6800;
+    border-color: #8C6900;
+}
+.wpss-cookie-message.wpss_solar .wpss-cookie-button-accept {
+    background-color: #8C6800;
+}
+
+.wpss-cookie-message.wpss_aqua {
+    background-color: #BFEFFF;
+    color: #00A3D8;
+    border-color: #73B9FF;
+}
+.wpss-cookie-message.wpss_aqua .wpss-cookie-button-accept {
+    background-color: #73B9FF;
+}
+
+.wpss-cookie-message.wpss_midnight {
+    background-color: #444;
+    color: #CCC;
+    border-color: #000;
+}
+.wpss-cookie-message.wpss_midnight .wpss-cookie-button-accept {
+    background-color: #000;
+}
+
+.wpss-cookie-message .wpss-cookie-button-accept:hover,
+.wpss-cookie-message .wpss-cookie-button-accept:focus {
+    text-decoration: none;
+    outline: none;
+    background-color: #0B0B0B;
+}
+
+.wpss-cookie-message.wpss_top {
+    top: 0;
+    border-bottom-width: 5px;
+    border-bottom-style: solid;
+}
+
+.wpss-cookie-message.wpss_bottom {
+    bottom: 0;
+    border-top-width: 5px;
+    border-top-style: solid;
+}
+
+.wpss-hide-message {
+    display: none;
+}
+
+.wpss-loading-btn {
+    background: url("../images/load.png") 0.5rem center no-repeat;
+}
+
+@media (min-width: 320px) and (max-width: 640px) {
+    .wpss-container {
+        display: block;
+    }
+    .wpss-container-message {
+        max-width: 100%;
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+    .wpss-container-button {
+        max-width: 100%;
+        text-align: center;
+    }
+}

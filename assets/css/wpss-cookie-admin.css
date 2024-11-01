@@ -1,0 +1,143 @@
+@charset "UTF-8";
+/**
+ * @author              Angelo Rocha
+ * @author              Angelo Rocha <contato@angelorocha.com.br>
+ * @link                https://angelorocha.com.br
+ * @copyleft            2020
+ * @license             GNU GPL 3 (https://www.gnu.org/licenses/gpl-3.0.html)
+ * @package WordPress
+ * @subpackage wpss_cookies
+ * @since 1.0.0
+ */
+
+.wpss-save-msg {
+    margin: -10px;
+}
+.wpss-save-msg:after {
+    content: "";
+    display: block;
+    margin-bottom: 10px;
+}
+.wpss-save-msg .notice {
+    margin: 0 0 30px 0;
+}
+
+.wpss-container {
+    background: #FFF;
+    max-width: 660px;
+    margin: 20px 0 0 0;
+    padding: 10px;
+    position: relative;
+}
+
+.wpss-container h1 {
+    margin: 0 0 20px 0;
+    padding: 0 0 5px 0;
+    font-size: 1.2rem;
+    border-bottom: 3px solid #32373C;
+}
+
+.wpss-container label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.wpss-input-group {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #DDD;
+}
+
+.wpss-input-group h3 {
+    margin: 0 0 10px 0;
+    font-size: 1rem;
+}
+
+.wpss-radio-image-inline {
+    margin: 0 -10px 0 -10px;
+}
+
+.wpss-radio-image-inline label {
+    display: inline-block;
+    max-width: 33.3333%;
+    margin: 0 10px 20px 10px;
+}
+.wpss-radio-image-inline label img {
+    display: block;
+    margin-top: 10px;
+}
+
+/** Social Links */
+.wpss-social-links {
+    position: absolute;
+    top: 0;
+    left: auto;
+    right: -40px;
+    line-height: 20px;
+    height: 20px;
+    width: 0;
+    display: inline-block;
+    white-space: nowrap;
+    transform: rotate(90deg);
+    transform-origin: top left;
+    transition: 300ms;
+}
+.wpss-social-links ul {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+.wpss-social-links ul > li {
+    background: #FFF;
+    display: inline-block;
+    margin: 0;
+    padding: 0 10px 0 10px;
+}
+.wpss-social-links ul > li:first-child {
+    height: 40px;
+    line-height: 40px;
+    border-radius: 10px 0 0 0;
+    padding: 0 10px 0 15px;
+}
+.wpss-social-links ul > li:last-child {
+    border-radius: 0 10px 0 0;
+}
+.wpss-social-links ul > li > a {
+    display: block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50% 50%;
+    overflow: hidden;
+    width: 30px;
+    height: 30px;
+    padding: 5px 0 5px 0;
+    text-indent: -9999px;
+    transition: 300ms;
+    opacity: 0.5;
+}
+.wpss-social-links ul > li:hover > a {
+    opacity: 1;
+    transform: rotate(-90deg);
+}
+.wpss-social-links ul > li.facebook > a {
+    background-image: url("../images/facebook.png");
+}
+.wpss-social-links ul > li.instagram > a {
+    background-image: url("../images/instagram.png");
+}
+.wpss-social-links ul > li.linkedin > a {
+    background-image: url("../images/linkedin.png");
+}
+.wpss-social-links ul > li.github > a {
+    background-image: url("../images/github.png");
+}
+
+.wpss-social-fixed {
+    position: fixed;
+    transition: 300ms;
+}
+
+.wpss-align-center{
+    text-align: center;
+}

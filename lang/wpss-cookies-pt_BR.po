@@ -1,0 +1,110 @@
+# Copyright (C) 2019 CMB2 team
+# This file is distributed under the same license as the CMB2 package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPSS Cookies\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/cmb2\n"
+"POT-Creation-Date: 2020-10-08 19:35-0300\n"
+"PO-Revision-Date: 2020-10-08 19:35-0300\n"
+"Last-Translator: \n"
+"Language-Team: Angelo Rocha\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: core/WPSSCookiesAdmin.php:39 core/WPSSCookiesAdmin.php:40
+msgid "Cookies Consent"
+msgstr "Consentimento de Cookies"
+
+#: core/WPSSCookiesAdmin.php:53
+msgid "Cookie Consent Option"
+msgstr "Opções do Consentimento de Cookies"
+
+#: core/WPSSCookiesAdmin.php:54
+msgid "Edit Message"
+msgstr "Editar Mensagem"
+
+#: core/WPSSCookiesAdmin.php:74
+msgid "Update Settings"
+msgstr "Atualizar Opções"
+
+#: core/WPSSCookiesAdmin.php:101
+msgid "Stay in touch"
+msgstr "Fique em contato"
+
+#: core/WPSSCookiesAdmin.php:133
+msgid "Enable Cookie Consent"
+msgstr "Habilitar Consentimento de Cookies"
+
+#: core/WPSSCookiesAdmin.php:134
+msgid "Yes"
+msgstr "Sim"
+
+#: core/WPSSCookiesAdmin.php:135
+msgid "No"
+msgstr "Não"
+
+#: core/WPSSCookiesAdmin.php:149
+msgid "Message Position"
+msgstr "Posição da Mensagem"
+
+#: core/WPSSCookiesAdmin.php:150
+msgid "Top"
+msgstr "Topo"
+
+#: core/WPSSCookiesAdmin.php:151
+msgid "Bottom"
+msgstr "Baixo"
+
+#: core/WPSSCookiesAdmin.php:165
+msgid "Message Style"
+msgstr "Estilo da Mensagem"
+
+#: core/WPSSCookiesAdmin.php:195
+msgid "Button Label"
+msgstr "Texto do Botão"
+
+#: core/WPSSCookiesAdmin.php:207
+msgid "Cookie Name"
+msgstr "Nome do Cookie"
+
+#: core/WPSSCookiesAdmin.php:219
+msgid "Cookie Lifetime"
+msgstr "Tempo de vida do cookie"
+
+#: core/WPSSCookiesAdmin.php:220
+msgid "One Week"
+msgstr "Uma Semana"
+
+#: core/WPSSCookiesAdmin.php:221
+msgid "One Month"
+msgstr "Um Mês"
+
+#: core/WPSSCookiesAdmin.php:222
+msgid "One Year"
+msgstr "Um Ano"
+
+#: core/WPSSCookiesAdmin.php:255
+msgid "Accept"
+msgstr "Aceitar"
+
+#: core/WPSSCookiesAdmin.php:256
+msgid ""
+"We use cookies to provide our services and for analytics and marketing. To "
+"find out more about our use of cookies, please see our Privacy Policy. By "
+"continuing to browse our website, you agree to our use of cookies."
+msgstr ""
+"Usamos cookies para fornecer nossos serviços e para análises e marketing. "
+"Para saber mais sobre nosso uso de cookies, consulte nossa Política de "
+"Privacidade. Ao continuar a navegar em nosso site, você concorda com o uso "
+"de cookies."
